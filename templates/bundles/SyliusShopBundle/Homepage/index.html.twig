@@ -1,0 +1,18 @@
+{% extends '@SyliusShop/layout.html.twig' %}
+
+{% block content %}
+
+{# # The template is not a mandatory parameter #}
+
+{{ render(path('bitbag_sylius_cms_plugin_shop_block_render', {'code' : 'homepage_header_image', 'template' : '@App/Some/Template/_path.html.twig'})) }}
+
+{# # However, you can pass it to the `bitbag_cms_render_block` function if you wish :) #}
+
+{{ bitbag_cms_render_block('sample_block_1') }}
+
+
+
+{{ render(path('bitbag_sylius_cms_plugin_shop_page_show_link_by_code', {'code' : 'sample_block_3', 'template' : '@BitBagSyliusCmsPlugin/Shop/Page/Show/_link.html.twig'})) }}
+
+
+{% endblock %}
