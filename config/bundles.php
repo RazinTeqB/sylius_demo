@@ -62,4 +62,7 @@ return [
     Sonata\Doctrine\Bridge\Symfony\SonataDoctrineBundle::class => ['all' => true],
     Sonata\Form\Bridge\Symfony\SonataFormBundle::class => ['all' => true],
     Sonata\Twig\Bridge\Symfony\SonataTwigBundle::class => ['all' => true],
+    FOS\CKEditorBundle\FOSCKEditorBundle::class => ['all' => true],
+    BitBag\SyliusCmsPlugin\BitBagSyliusCmsPlugin::class => ['all' => true],
+    SitemapPlugin\SitemapPlugin::class => ['all' => true],
 ];

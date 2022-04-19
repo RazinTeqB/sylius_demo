@@ -1,2 +1,8 @@
 sylius_paypal_webhook:
     resource: "@SyliusPayPalPlugin/Resources/config/webhook_routing.yaml"
+
+bitbag_sylius_cms_plugin:
+    resource: "@BitBagSyliusCmsPlugin/Resources/config/routing.yml"
+
+sylius_sitemap:
+    resource: "@SitemapPlugin/Resources/config/routing.yml"
